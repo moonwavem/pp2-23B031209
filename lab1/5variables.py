@@ -34,9 +34,9 @@ myvar2 = "John"
 
 #Illegal variable names:
 
-2myvar = "John"
+"""n myvar = "John"
 my-var = "John"
-my var = "John"
+my var = "John" """
 
 #Pascal Case
 MyVariableName = "John"
@@ -87,10 +87,8 @@ y = "John"
 print(x, y)
 
 x = "awesome"
-
 def myFunc():
     print("python is "+x)
-
 myFunc()
 
 #global

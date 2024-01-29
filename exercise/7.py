@@ -7,7 +7,7 @@ x = txt[0]
 txt = "Hello World"
 x = txt[2:5] #llo
 
-txt = " Hello World "
+txt = " Hello, World "
 x = txt.strip()
 
 txt = "Hello World"
