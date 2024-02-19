@@ -1,0 +1,6 @@
+from datetime import datetime, timedelta
+
+x = datetime.now()
+z = x- timedelta(days=5)
+
+print(z.strftime("%Y:%m:%d"))

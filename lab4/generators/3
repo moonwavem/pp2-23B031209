@@ -1,0 +1,12 @@
+
+
+def g(N):
+    for i in range(0, N+1):
+        if i % 3 == 0 and i % 4 == 0:
+            yield i
+
+N = int(input())
+div = g(N)
+print(", ".join(map(str, div)))
+for number in div:
+    print(number)
