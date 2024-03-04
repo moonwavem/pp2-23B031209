@@ -5,15 +5,28 @@ x = 5
 y = 3
 
 print(x + y)
+# +	Addition	x + y	
+# -	Subtraction	x - y	
+# *	Multiplication	x * y	
+# /	Division	x / y	
+# %	Modulus	x % y	
+# ** Exponentiation	x ** y	
+# // Floor division	x // y калдыксыз болу
+
 x = 5
-y = 7
-x + y	
-x - y	
-x * y	
-x / y	
-x % y	
-x ** y	
-x // y
+x += 3
+#answer = 8
+x = 5
+x |= 3 #|-or
+#answer =7 
+
+# ==	Equal	x == y	
+# !=	Not equal	x != y	
+# >	Greater than	x > y	
+# <	Less than	x < y	
+# >= Greater than or equal to	x >= y	
+# <= Less than or equal to	x <= y
+
 #3
 x = ["apple", "banana"]
 y = ["apple", "banana"]
@@ -77,3 +90,8 @@ print((6 + 3) - (6 + 3)) #0
 print(100 + 5 * 3) #115
 print(5 + 4 - 7 + 3) #5
 
+
+#list - это коллекция, которая упорядочена и изменяема. Допускает дублирование элементов.
+#tuple— это упорядоченная и неизменяемая коллекция. Допускает дублирование элементов.
+#set- это коллекция, которая не упорядочена, неизменяемый* и неиндексируемый. Отсутствие дублирующихся элеме
+#dictionary- это коллекция, которая упорядочена** и изменчивый. Отсутствие дублирующихся элементов.

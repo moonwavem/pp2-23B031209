@@ -1,0 +1,10 @@
+def replace_chars(input_string):
+    replaced_string = input_string.replace(' ', ':').replace(',', ':').replace('.', ':')
+    return replaced_string
+
+# Пример использования:
+original_string = "Пример строки с пробелами, запятыми и точками."
+modified_string = replace_chars(original_string)
+
+print("Исходная строка:", original_string)
+print("Измененная строка:", modified_string)
